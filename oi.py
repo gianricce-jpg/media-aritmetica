@@ -21,17 +21,18 @@ def calcular_media(quantidade):
     return media
 
 def dar_resultado(media_final):
-    print(f"\n Media Final: {media_final:.1f}")
+    print(f"\nMédia Final: {media_final:.1f}")
     if media_final >= 8.0:
-        print("Parabéns, você passou e ganhou o CERTIFICADO.")
-        
+        print("Parebéns você foi: APROVADO E GANHOU CERTIFICADO! 🏆")
     elif media_final >= 6.0:
-        print("Parabéns, você passou.")
-        
+        print(" Parebéns você foi: APROVADO ✅")
+    elif 5.0 <= media_final < 6.0:
+        print("EM RECUPERAÇÃO, Estude mais para a prova final ⚠️")
     else:
-        print("Você não passou, melhore.")
+        print("REPROVADO❌, Te vejo ano que vem!!")
         
-        
+
+                    
 qtd = quantidade_materia()
 media = calcular_media(qtd)
 dar_resultado(media)
