@@ -1,5 +1,9 @@
+print("-" * 50)
+print("             CALCULADORA ARITMÉTICA      ")
+print("-" * 50)
+    
 def quantidade_materia():
-    qtd = int(input("Digite quantas matérias você tem (ex:10) "))
+    qtd = int(input("Digite quantas matérias você tem (ex: 10) "))
     return qtd
 
 def calcular_media(quantidade):
@@ -31,3 +35,7 @@ def dar_resultado(media_final):
 qtd = quantidade_materia()
 media = calcular_media(qtd)
 dar_resultado(media)
+
+print("-" * 50)
+print("      CALCULADORA ARITMÉTICA      ")
+print("-" * 50)
